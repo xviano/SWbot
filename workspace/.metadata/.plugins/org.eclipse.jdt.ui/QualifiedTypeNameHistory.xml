@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.sikuli.script.Pattern"/>
+<fullyQualifiedTypeName name="org.sikuli.basics.Debug"/>
+<fullyQualifiedTypeName name="org.sikuli.script.ImagePath"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="org.sikuli.util.EventObserver"/>
+<fullyQualifiedTypeName name="java.awt.Image"/>
+<fullyQualifiedTypeName name="com.android.dx.command.findusages.Main"/>
+<fullyQualifiedTypeName name="java.io.PrintStream"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="javax.swing.JButton"/>
+<fullyQualifiedTypeName name="javax.swing.SwingWorker"/>
+<fullyQualifiedTypeName name="javax.swing.JTextArea"/>
+<fullyQualifiedTypeName name="javax.swing.JTextField"/>
+<fullyQualifiedTypeName name="org.sikuli.script.Match"/>
+<fullyQualifiedTypeName name="org.sikuli.script.FindFailed"/>
+<fullyQualifiedTypeName name="org.sikuli.script.Screen"/>
+<fullyQualifiedTypeName name="Script"/>
+<fullyQualifiedTypeName name="org.sikuli.script.App"/>
+</qualifiedTypeNameHistroy>

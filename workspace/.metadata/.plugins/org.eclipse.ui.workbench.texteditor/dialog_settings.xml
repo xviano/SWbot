@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="src"/>
+			<item value="interrupt"/>
+			<item value="checkbox"/>
+			<item value="pandaBot_lib"/>
+			<item value="sr"/>
+			<item value="btnStart"/>
+			<item value=".."/>
+			<item value="src/img"/>
+			<item value="src/main/resources/img"/>
+			<item value="src/img/main"/>
+			<item value="&#x09;public void pandaBot(){ "/>
+			<item value=".click()"/>
+			<item value="thread"/>
+			<item value="&#x09;public void stopScript() throws Exit{"/>
+			<item value="public void initialize() {"/>
+		</list>
+		<list key="replacehistory">
+			<item value=""/>
+			<item value="/pandaBot_lib"/>
+			<item value="pandaBot_lib"/>
+			<item value="../panda_lib/img"/>
+			<item value="src/img"/>
+			<item value="src/main/resources/img"/>
+			<item value="getY"/>
+			<item value="getX"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="284" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="391" key="DIALOG_HEIGHT"/>
+		<item value="122" key="DIALOG_X_ORIGIN"/>
+		<item value="103" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>
