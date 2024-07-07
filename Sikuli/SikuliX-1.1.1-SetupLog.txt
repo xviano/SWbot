@@ -1,0 +1,109 @@
+[debug (12/22/17 3:53:00 PM)] Debug: setLogFile: C:\Users\user\Downloads\Sikuli\SikuliX-1.1.1-SetupLog.txt
+[debug (12/22/17 3:53:00 PM)] RunSetup: ... starting with no args given
+[debug (12/22/17 3:53:00 PM)] RunSetup: Setup: 1.1.1 2017-03-29_10:41 in folder:
+C:\Users\user\Downloads\Sikuli
+[debug (12/22/17 3:53:00 PM)] RunSetup: RunningSystem: Windows 6.2
+[debug (12/22/17 3:53:00 PM)] RunSetup: parent of jar/classes: C:\Users\user\Downloads\Sikuli
+[debug (12/22/17 3:53:00 PM)] RunSetup: RunningJava: Java 8 (amd64) 1.8.0_45-b14
+[debug (12/22/17 3:53:00 PM)] init user preferences
+[debug (12/22/17 3:53:12 PM)] RunSetup: 
+popAsk: --------------------
+The following file(s) will be downloaded to
+C:\Users\user\Downloads\Sikuli
+--- Native support libraries for Windows (sikulixlibs...)
+--- Package 2 ---
+sikulixsetupAPI-1.1.1-20170329.231900-143-forsetup.jar (Java API)
+Only click NO, if you want to terminate setup now!
+Click YES even if you want to use local copies in Downloads!
+--------------------
+[debug (12/22/17 3:53:38 PM)] RunSetup: 
+popAsk: --------------------
+You have for Windows native libs
+C:\Users\user\AppData\Roaming\Sikulix\SikulixDownloads_201703291041\sikulixlibswin-1.1.1-20170329.230420-154.jar
+Click YES, if you want to use this for setup processing
+... or click NO, to ignore it and download a fresh copy
+--------------------
+[debug (12/22/17 3:53:57 PM)] FileManager: download to string from:
+https://oss.sonatype.org/content/groups/public/com/sikulix/sikulixlibswin/1.1.1-SNAPSHOT/maven-metadata.xml,
+[debug (12/22/17 3:53:58 PM)] RunSetup: getMavenJar: sikulixlibswin-1.1.1-20170329.230420-154.jar
+[debug (12/22/17 3:53:59 PM)] FileManager: Downloading sikulixlibswin-1.1.1-20170329.230420-154.jar having 10577 KB
+[debug (12/22/17 3:54:04 PM)] FileManager: downloaded 10577 KB to:
+C:\Users\user\AppData\Roaming\Sikulix\SikulixDownloads_201703291041\sikulixlibswin-1.1.1-20170329.230420-154.jar
+[debug (12/22/17 3:54:04 PM)] FileManager: download time: 4
+[debug (12/22/17 3:54:07 PM)] RunSetup: Copied from Downloads: sikulixlibswin
+[debug (12/22/17 3:54:07 PM)] FileManager: resetFolder:
+C:\Users\user\Downloads\Sikuli\SetupStuff\sikulixlibs\windows
+jar:file:/C:/Users/user/Downloads/Sikuli/sikulixlibswin.jar
+[debug (12/22/17 3:54:07 PM)] RunSetup: 
+popAsk: --------------------
+You have for Java API package
+C:\Users\user\AppData\Roaming\Sikulix\SikulixDownloads_201703291041\sikulixsetupAPI-1.1.1-20170329.231900-143-forsetup.jar
+Click YES, if you want to use this for setup processing
+... or click NO, to ignore it and download a fresh copy
+--------------------
+[debug (12/22/17 3:54:20 PM)] FileManager: download to string from:
+https://oss.sonatype.org/content/groups/public/com/sikulix/sikulixsetupAPI/1.1.1-SNAPSHOT/maven-metadata.xml,
+[debug (12/22/17 3:54:21 PM)] RunSetup: getMavenJar: sikulixsetupAPI-1.1.1-20170329.231900-143-forsetup.jar
+[debug (12/22/17 3:54:21 PM)] FileManager: Downloading sikulixsetupAPI-1.1.1-20170329.231900-143-forsetup.jar having 9352 KB
+[debug (12/22/17 3:54:25 PM)] FileManager: downloaded 9352 KB to:
+C:\Users\user\AppData\Roaming\Sikulix\SikulixDownloads_201703291041\sikulixsetupAPI-1.1.1-20170329.231900-143-forsetup.jar
+[debug (12/22/17 3:54:25 PM)] FileManager: download time: 4
+[debug (12/22/17 3:54:28 PM)] RunSetup: Copied from Downloads: sikulixapi
+[debug (12/22/17 3:54:28 PM)] FileManager: resetFolder:
+C:\Users\user\Downloads\Sikuli\SetupStuff\Lib
+jar:file:/C:/Users/user/Downloads/Sikuli/sikulixapi.jar
+[debug (12/22/17 3:54:29 PM)] RunSetup: Download ended
+[debug (12/22/17 3:54:29 PM)] RunSetup: Downloads for selected options:
+sikulixlibswin-1.1.1-20170329.230420-154.jar sikulixsetupAPI-1.1.1-20170329.231900-143-forsetup.jar 
+[debug (12/22/17 3:54:29 PM)] RunSetup: adding needed stuff to sikulixapi.jar
+[debug (12/22/17 3:54:29 PM)] FileManager: buildJar: sikulixtemp.jar
+[debug (12/22/17 3:54:29 PM)] FileManager: buildJar: adding: sikulixapi.jar
+[debug (12/22/17 3:54:30 PM)] FileManager: buildJar: adding: sikulixlibswin.jar
+[debug (12/22/17 3:54:32 PM)] FileManager: buildJar: adding sikulixcontent at sikulixlibswin
+[debug (12/22/17 3:54:32 PM)] FileManager: buildJar: adding sikulixcontent at Lib
+[debug (12/22/17 3:54:32 PM)] FileManager: buildJar: completed
+[debug (12/22/17 3:54:32 PM)] RunSetup: renaming sikulixtemp.jar to target jar: sikulixapi.jar
+[debug (12/22/17 3:54:32 PM)] RunSetup: Trying to run functional test: JAVA-API
+[debug (12/22/17 3:54:32 PM)] RunTimeSETUP: addToClasspath:
+file:/C:/Users/user/Downloads/Sikuli/sikulixapi.jar
+[debug (12/22/17 3:54:32 PM)] RunSetup: trying to run org.sikuli.script.Sikulix.testSetup()
+[debug (12/22/17 3:54:32 PM)] RunSetup: class found: class org.sikuli.script.Sikulix
+[debug (12/22/17 3:54:32 PM)] RunSetup: getMethod: public static boolean org.sikuli.script.Sikulix.testSetup()
+[debug (12/22/17 3:54:37 PM)] RunSetup: invoke: public static boolean org.sikuli.script.Sikulix.testSetup()
+[debug (12/22/17 3:54:37 PM)] RunTimeSETUP: exists libs folder at: C:\Users\user\AppData\Roaming\Sikulix\SikulixLibs_201703291041
+[debug (12/22/17 3:54:37 PM)] RunTimeSETUP: libs folder empty or has wrong content
+[debug (12/22/17 3:54:37 PM)] RunTimeSETUP: now exporting libs
+[debug (12/22/17 3:54:37 PM)] RunTimeSETUP: libs to export are at:
+jar:file:/C:/Users/user/Downloads/Sikuli/sikulixapi.jar!/sikulixlibs/windows/libs64
+[debug (12/22/17 3:54:37 PM)] RunTimeSETUP: resourceList: enter
+[debug (12/22/17 3:54:37 PM)] RunTimeSETUP: resourceLocation: (class org.sikuli.setup.RunSetup) /sikulixlibs/windows/libs64
+[debug (12/22/17 3:54:37 PM)] RunTimeSETUP: resourceList: having jar: jar:file:/C:/Users/user/Downloads/Sikuli/sikulixapi.jar!/sikulixlibs/windows/libs64
+[debug (12/22/17 3:54:38 PM)] RunTimeSETUP: files exported: 17 from: /sikulixlibs/windows/libs64 to:
+ C:\Users\user\AppData\Roaming\Sikulix\SikulixLibs_201703291041
+[debug (12/22/17 3:54:38 PM)] RunTimeSETUP: addToWindowsSystemPath: added to systempath:
+C:\Users\user\AppData\Roaming\Sikulix\SikulixLibs_201703291041
+[debug (12/22/17 3:54:38 PM)] RunTimeSETUP: checkJavaUsrPath: added to ClassLoader.usrPaths
+[debug (12/22/17 3:54:42 PM)] RunTimeSETUP: loadLib: VisionProxy.dll
+[debug (12/22/17 3:54:42 PM)] Mouse: init start
+[debug (12/22/17 3:54:42 PM)] Mouse: init end
+[debug (12/22/17 3:54:42 PM)] Image: BufferedImage: (100, 100)
+[debug (12/22/17 3:54:42 PM)] Finder: Image: __BufferedImage__: (100x100)
+[debug (12/22/17 3:54:42 PM)] Sikulix: testSetup: Finder setup with image worked
+[debug (12/22/17 3:54:42 PM)] FileManager: tempfile create:
+C:\Users\user\AppData\Local\Temp\Sikulix_1809227346\sikuli-1511823712804666492.png
+[debug (12/22/17 3:54:42 PM)] Image: loaded: C:/Users/user/AppData/Local/Temp/Sikulix_1809227346/sikuli-1511823712804666492.png (file:/C:/Users/user/AppData/Local/Temp/Sikulix_1809227346/sikuli-1511823712804666492.png)
+[debug (12/22/17 3:54:42 PM)] Image: cached: C:/Users/user/AppData/Local/Temp/Sikulix_1809227346/sikuli-1511823712804666492.png (29 KB) (# 1 KB 29 -- 0 % of 64 MB)
+[debug (12/22/17 3:54:43 PM)] Sikulix: testSetup: Finder setup with image file worked
+[debug (12/22/17 3:54:43 PM)] Image: reused: C:/Users/user/AppData/Local/Temp/Sikulix_1809227346/sikuli-1511823712804666492.png (file:/C:/Users/user/AppData/Local/Temp/Sikulix_1809227346/sikuli-1511823712804666492.png)
+[debug (12/22/17 3:54:43 PM)] Region: wait: waiting 3.0 secs for C:/Users/user/AppData/Local/Temp/Sikulix_1809227346/sikuli-1511823712804666492.png to appear in S(0)[0,0 1360x768]
+[debug (12/22/17 3:54:43 PM)] Region: wait: C:/Users/user/AppData/Local/Temp/Sikulix_1809227346/sikuli-1511823712804666492.png appeared (M[25,0 100x100]@S(S(0)[0,0 1360x768]) S:1.00 C:75,50 [171 msec])
+[debug (12/22/17 3:54:43 PM)] Sikulix: testSetup: Screen.find(imagefile) worked
+[debug (12/22/17 3:54:43 PM)] Image: reused: C:/Users/user/AppData/Local/Temp/Sikulix_1809227346/sikuli-1511823712804666492.png (file:/C:/Users/user/AppData/Local/Temp/Sikulix_1809227346/sikuli-1511823712804666492.png)
+[debug (12/22/17 3:54:43 PM)] Region: wait: waiting 3.0 secs for C:/Users/user/AppData/Local/Temp/Sikulix_1809227346/sikuli-1511823712804666492.png to appear in S(0)[0,0 1360x768]
+[debug (12/22/17 3:54:43 PM)] Region: wait: C:/Users/user/AppData/Local/Temp/Sikulix_1809227346/sikuli-1511823712804666492.png appeared (M[25,0 100x100]@S(S(0)[0,0 1360x768]) S:1.00 C:75,50 [146 msec])
+[debug (12/22/17 3:54:43 PM)] Sikulix: testSetup: repeated Screen.find(imagefile) worked
+[debug (12/22/17 3:54:45 PM)] Sikulix: testSetup: Finder.find: worked
+[debug (12/22/17 3:54:50 PM)] RunSetup: ... SikuliX Setup seems to have ended successfully ;-)
+[debug (12/22/17 3:54:50 PM)] RunTimeSETUP: final cleanup
+[debug (12/22/17 3:54:50 PM)] FileManager: deleteFileOrFolder:
+C:\Users\user\AppData\Local\Temp\Sikulix_1809227346
